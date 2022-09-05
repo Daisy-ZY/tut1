@@ -14,7 +14,7 @@ public class Greeter {
   public String sayHello() {
     ResourceBundle messages = ResourceBundle.getBundle("MessagesBundle", locale);
 <<<<<<< HEAD
-    return messages.getString("greeting") + ", " + " "+name.toUppercase;
+    return messages.getString("Greeting") + ", " + " "+name.toUppercase;
 =======
 >>>>>>> feature-2
   }
